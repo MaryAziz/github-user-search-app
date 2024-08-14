@@ -1,0 +1,33 @@
+#header{
+    width: 730px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mood{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: transparent;
+    font-weight: 900;
+    font-size: 13;
+    font-family: 'SpaceMono';
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.lightp {
+    color: #000000;
+}
+
+.darkp{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 375px) {
+    #header{
+        width:325px;
+    }    
+}

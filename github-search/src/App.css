@@ -1,0 +1,33 @@
+@font-face {
+  font-family:'SpaceMono' ;
+  src: url(./assets/SpaceMono-Regular.ttf);
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  
+  margin: 0;
+  font-size: 15px;
+}
+#root{
+  font-family: 'SpaceMono';
+  letter-spacing: 1px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(227, 100%, 98%);
+}
+@media screen and (max-width: 375px) {
+  #root{
+    display: flex;
+    justify-content: flex-start;
+  }
+}
