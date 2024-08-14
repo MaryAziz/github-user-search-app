@@ -16,3 +16,9 @@
     background-color: #2B3442;
     color: aliceblue;
 }
+@media screen and (max-width: 420px) {
+    #main{
+        width: 95%;
+        height: 95%;
+    }
+}

@@ -35,8 +35,8 @@ input{
     letter-spacing: 1px;
     cursor: pointer;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     #search{
-        width: 325px;
+        width: 90%;
     }
 }

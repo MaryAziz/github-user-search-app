@@ -15,9 +15,9 @@
 .appname{
     font-size: 12px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     main{
-        width: 325px;
+        width: 95%;
         height: auto;
         padding: 20px;
         gap: 20px;
